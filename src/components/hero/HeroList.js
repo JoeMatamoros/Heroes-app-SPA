@@ -9,8 +9,8 @@ export const HeroList = ({publisher}) => {
             {
                 heroes.map(hero=>(
                     <HeroCard 
-                    key={hero.id}
-                    {...hero}
+                        key={hero.id}
+                        {...hero}
                     />    
                 ))
             }
